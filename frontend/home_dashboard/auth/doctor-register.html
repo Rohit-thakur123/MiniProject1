@@ -82,7 +82,30 @@
                 data-phone-input
               />
             </div>
+<<<<<<< HEAD
             
+=======
+
+            <div class="row">
+              <label for="otp">OTP Verification</label>
+              <input
+                id="otp"
+                name="otp"
+                type="text"
+                inputmode="numeric"
+                placeholder="Enter 6-digit OTP"
+                data-otp-input
+              />
+              <input type="hidden" data-phone-verified />
+              <div class="actions">
+                <button class="btn btn-soft" data-otp-send type="button">Send OTP</button>
+                <button class="btn btn-soft" data-otp-verify type="button">Verify OTP</button>
+                <button class="btn btn-primary" type="submit">Register</button>
+              </div>
+              <p class="status" data-otp-status aria-live="polite"></p>
+            </div>
+
+>>>>>>> f150b673057d80f1db0e107e3b39572fc474a539
             <div class="row">
               <label for="password">Password</label>
               <input id="password" name="password" type="password" placeholder="Create a password" required />
