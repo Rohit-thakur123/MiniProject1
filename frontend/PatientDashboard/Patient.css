@@ -28,6 +28,17 @@ body {
   min-height: 100vh;
   color: var(--text-main);
 }
+/* ── Top bar ── */
+    .top-bar {
+      background: #031633;
+      color: #cdd5e0;
+      font-size: 12px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
 
 /* ── NAV ─────────────────────────────────────── */
 nav {
