@@ -43,6 +43,18 @@
     ::-webkit-scrollbar-track { background: transparent; }
     ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 99px; }
 
+    /* ── Top bar ── */
+    .top-bar {
+      background: #031633;
+      color: #cdd5e0;
+      font-size: 12px;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
     /* ══════════════════════════════════════════════════════════════
        NAVBAR
     ══════════════════════════════════════════════════════════════ */
