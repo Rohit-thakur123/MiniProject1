@@ -6,7 +6,7 @@ const path = require('path');
 
 //port and app setup
 const app = express();
-const port = 3000;
+const port = 8000;
 
 //middleware
 app.use(express.json());
