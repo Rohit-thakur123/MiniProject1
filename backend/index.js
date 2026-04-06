@@ -20,4 +20,10 @@ app.use('/', homeRoutes);
 
 
 
-app.listen(port);
+app.listen(port,(err)=>{
+    if(err){
+        console.error('Error starting server:', err);
+    }    else{
+        console.log(`Server is running on port http://localhost:${port}`);
+    }
+});
